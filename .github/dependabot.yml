@@ -31,6 +31,6 @@ updates:
 
   # Enable version updates for Nuget
   - package-ecosystem: "devcontainers"
-    directory: "/.devcontainer"
+    directory: "/"
     schedule:
       interval: "monthly"
