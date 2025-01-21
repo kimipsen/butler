@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{82B7FAF9-3BB7-43EC-B3B1-AA2802C3D800}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+		.config\dotnet-tools.json = .config\dotnet-tools.json
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "butler.aspire-apphost", "butler.aspire-apphost\butler.aspire-apphost.csproj", "{C37A16AE-6A38-40B0-AB96-3DC79820D3C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "butler.aspire-servicedefaults", "butler.aspire-servicedefaults\butler.aspire-servicedefaults.csproj", "{EC342CE0-1383-4434-B21D-748B198FF723}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "butler.aspire-tests", "butler.aspire-tests\butler.aspire-tests.csproj", "{495B4360-D74E-4986-8D62-F88E866F787D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "butler.api", "butler.api\butler.api.csproj", "{EF4321C6-CA13-44DE-82CE-5C5C732249E3}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "butler.site", "butler.site\butler.site.esproj", "{E69943D6-924E-41CC-92F0-7CFB89951180}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C37A16AE-6A38-40B0-AB96-3DC79820D3C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C37A16AE-6A38-40B0-AB96-3DC79820D3C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C37A16AE-6A38-40B0-AB96-3DC79820D3C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C37A16AE-6A38-40B0-AB96-3DC79820D3C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC342CE0-1383-4434-B21D-748B198FF723}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC342CE0-1383-4434-B21D-748B198FF723}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC342CE0-1383-4434-B21D-748B198FF723}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC342CE0-1383-4434-B21D-748B198FF723}.Release|Any CPU.Build.0 = Release|Any CPU
+		{495B4360-D74E-4986-8D62-F88E866F787D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{495B4360-D74E-4986-8D62-F88E866F787D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{495B4360-D74E-4986-8D62-F88E866F787D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{495B4360-D74E-4986-8D62-F88E866F787D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF4321C6-CA13-44DE-82CE-5C5C732249E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF4321C6-CA13-44DE-82CE-5C5C732249E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF4321C6-CA13-44DE-82CE-5C5C732249E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF4321C6-CA13-44DE-82CE-5C5C732249E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E69943D6-924E-41CC-92F0-7CFB89951180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E69943D6-924E-41CC-92F0-7CFB89951180}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E69943D6-924E-41CC-92F0-7CFB89951180}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E69943D6-924E-41CC-92F0-7CFB89951180}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E69943D6-924E-41CC-92F0-7CFB89951180}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E69943D6-924E-41CC-92F0-7CFB89951180}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
